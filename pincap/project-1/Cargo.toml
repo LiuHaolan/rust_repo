@@ -1,15 +1,12 @@
 [package]
-name = "hello_cargo"
+name = "kvs"
 version = "0.1.0"
 authors = ["LiuHaolan <3140101098@zju.edu.cn>"]
 edition = "2018"
+description = "A key value store"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-futures = "0.3"
-
-[dependencies.async-std]
-version="1.6"
-features=["attributes"]
-
+assert_cmd = "0.11.0"
+predicates = "1.0.0"
